@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1025113078464",
+    "firebase_url": "https://chatoon-e16fb.firebaseio.com",
+    "project_id": "chatoon-e16fb",
+    "storage_bucket": "chatoon-e16fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025113078464:android:385fa453647b9a42",
+        "android_client_info": {
+          "package_name": "com.bcmobileappdevelopment.chatoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025113078464-g5b9ha9e9b1l49q8hnnii6hnh5fl1lvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0kLtMkHakrWkQWJElA_yYsGsHcIjDi0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025113078464-g5b9ha9e9b1l49q8hnnii6hnh5fl1lvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

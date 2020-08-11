@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DB4437</color>
+    <color name="colorPrimaryDark">#8B2B23</color>
+    <color name="colorPrimaryDark2">#1D1D1D</color>
+    <color name="colorAccent">#43A047</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="grey">#CECECE</color>
+    <color name="background">#720A0606</color>
+    <color name="transparent_circle">#36FFFFFF</color>
+    <color name="half_transparent">#36FFFFFF</color>
+    <color name="half_transparent_dark">#79757575</color>
+    <color name="transparent_circle_pressed">#E7E7E7</color>
+    <color name="transparent_full">#00000000</color>
+    <color name="chat_background">#d9d9d9</color>
+    <color name="light_grey">#b9b9b9</color>
+    <color name="dark_grey">#727272</color>
+    <color name="fragment_background">#BC000000</color>
+
+    <color name="transparent_green">#B23CB300</color>
+    <color name="transparent_green_pressed">#38BE00</color>
+    <color name="transparent_red">#95FF1744</color>
+    <color name="transparent_red_pressed">#FF1744</color>
+    <color name="transparent_blue">#5903A9F4</color>
+    <color name="transparent_blue_pressed">#03A9F4</color>
+    <color name="chatoon_orange_light">#FF9300</color>
+    <color name="chatoon_orange_medium">#FF5E00</color>
+    <color name="chatoon_orange_dark">#FF2600</color>
+    <color name="orange">#DB4437</color>
+    <color name="orange_pressed">#FF5A4D</color>
+
+    <color name="button_green_pressed">#38BE00</color>
+    <color name="button_green">#207700</color>
+
+    <color name="chat_balloon_green">#dcf8c6</color>
+    <color name="chat_balloon_gray">#C4C4C4</color>
+    </resources>

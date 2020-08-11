@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    android:clickable="true"
+    tools:context=".Fragments.SearchCredentialsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/baloo"
+                    android:text="@string/edit_personal_info"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clUsername"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/rounded_corner_background_dark"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+                    app:layout_constraintVertical_chainStyle="packed">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/etUsername"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:ems="10"
+                        android:fontFamily="@font/baloo"
+                        android:hint="@string/username"
+                        android:inputType="textPersonName|text"
+                        android:textColor="@color/colorWhite"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:met_errorColor="#FF0F00"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelTextColor="@color/white"
+                        app:met_maxCharacters="@integer/username_length_max"
+                        app:met_minCharacters="@integer/username_length_min"
+                        app:met_primaryColor="@color/white"
+                        app:met_textColor="@color/white"
+                        app:met_textColorHint="@color/white" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner_background"
+                    android:fontFamily="@font/baloo"
+                    android:text="@string/gender"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/ivMaleBack"
+                    app:layout_constraintStart_toStartOf="@+id/ivMaleBack"
+                    app:layout_constraintTop_toTopOf="@+id/tvAge" />
+
+                <TextView
+                    android:id="@+id/tvAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_corner_background"
+                    android:fontFamily="@font/baloo"
+                    android:text="@string/age"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/npAge"
+                    app:layout_constraintStart_toStartOf="@+id/npAge"
+                    app:layout_constraintTop_toBottomOf="@+id/clUsername" />
+
+                <ImageView
+                    android:id="@+id/ivMaleBack"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/circle"
+                    app:layout_constraintBottom_toTopOf="@id/ivFemaleBack"
+                    app:layout_constraintEnd_toStartOf="@+id/ivDummy"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/npAge" />
+
+                <ImageView
+                    android:id="@+id/ivFemaleBack"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/circle"
+                    app:layout_constraintBottom_toBottomOf="@+id/npAge"
+                    app:layout_constraintEnd_toEndOf="@+id/ivMaleBack"
+                    app:layout_constraintStart_toStartOf="@+id/ivMaleBack"
+                    app:layout_constraintTop_toBottomOf="@id/ivMaleBack" />
+
+                <TextView
+                    android:id="@+id/btMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/male_char"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="@id/ivMaleBack"
+                    app:layout_constraintEnd_toEndOf="@id/ivMaleBack"
+                    app:layout_constraintStart_toStartOf="@id/ivMaleBack"
+                    app:layout_constraintTop_toTopOf="@id/ivMaleBack" />
+
+                <TextView
+                    android:id="@+id/btFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:gravity="center"
+                    android:text="@string/female_char"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="@id/ivFemaleBack"
+                    app:layout_constraintEnd_toEndOf="@id/ivFemaleBack"
+                    app:layout_constraintStart_toStartOf="@id/ivFemaleBack"
+                    app:layout_constraintTop_toTopOf="@id/ivFemaleBack" />
+
+                <com.github.stephenvinouze.materialnumberpickercore.MaterialNumberPicker
+                    android:id="@+id/npAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/rounded_corner_background"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toEndOf="@+id/ivDummy"
+                    app:layout_constraintTop_toBottomOf="@+id/tvAge"
+                    app:mnpEditable="false"
+                    app:mnpMaxValue="99"
+                    app:mnpMinValue="18"
+                    app:mnpSeparatorColor="@color/white"
+                    app:mnpTextColor="@color/white"
+                    app:mnpTextSize="16sp"
+                    app:mnpTextStyle="bold"
+                    app:mnpValue="25"
+                    app:mnpWrapped="false" />
+
+                <ImageView
+                    android:id="@+id/ivDummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivCountry"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/npAge"
+                    tools:src="@drawable/turk" />
+
+                <TextView
+                    android:id="@+id/tvCountryName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/baloo"
+                    android:singleLine="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivCountry"
+                    tools:text="Turkey" />
+
+                <TextView
+                    android:id="@+id/btUpdate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/transparent_circle"
+                    android:fontFamily="@font/baloo"
+                    android:padding="12dp"
+                    android:text="@string/update"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/btBack"
+                    app:layout_constraintTop_toTopOf="@+id/btBack" />
+
+                <TextView
+                    android:id="@+id/btBack"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/transparent_red"
+                    android:fontFamily="@font/baloo"
+                    android:padding="12dp"
+                    android:text="@android:string/cancel"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btUpdate"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvCountryName" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

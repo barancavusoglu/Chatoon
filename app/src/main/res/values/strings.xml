@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Chatoon</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="facebook_app_id" translatable="false">689074561527930</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb689074561527930</string>
+
+
+    <string name="masterpass" translatable="false">Ch4t0O0N!</string>
+
+    <string name="webservice_main" translatable="false">http://185.141.33.87/chatoon/webservice.asmx/</string>
+    <string name="webservice_backup" translatable="false">http://185.141.33.87/chatoon_backup/webservice.asmx/</string>
+
+    <string name="ws_GetPreferences" translatable="false">GetPreferences</string>
+    <string name="ws_LoginAnonymous" translatable="false">LoginAnonymous</string>
+    <string name="ws_LoginEmail" translatable="false">LoginEmail</string>
+    <string name="ws_LoginFacebook" translatable="false">LoginFacebook</string>
+    <string name="ws_RegisterAnonymous" translatable="false">RegisterAnonymous</string>
+    <string name="ws_RegisterFacebook" translatable="false">RegisterFacebook</string>
+    <string name="ws_RegisterEmail" translatable="false">RegisterEmail</string>
+    <string name="ws_AutoLogin" translatable="false">AutoLogin</string>
+    <string name="ws_InsertFirebaseInstanceID" translatable="false">InsertFirebaseInstanceID</string>
+    <string name="ws_GetMessagesFirstTime" translatable="false">GetMessagesFirstTime</string>
+    <string name="ws_CheckNewMessages" translatable="false">CheckNewMessages</string>
+    <string name="ws_SendMessage" translatable="false">SendMessage</string>
+    <string name="ws_LoadMoreMessages" translatable="false">LoadMoreMessages</string>
+    <string name="ws_GetUserDetails" translatable="false">GetUserDetails</string>
+    <string name="ws_GetLastSeenDate" translatable="false">GetLastSeenDate</string>
+    <string name="ws_FindNewChat" translatable="false">FindNewChat</string>
+    <string name="ws_DeleteChat" translatable="false">DeleteChat</string>
+    <string name="ws_UpdateSearchCredentials" translatable="false">UpdateSearchCredentials</string>
+    <string name="ws_GetPremiumList" translatable="false">GetPremiumList</string>
+    <string name="ws_GetPremiumInfo" translatable="false">GetPremiumInfo</string>
+    <string name="ws_AddPremium" translatable="false">AddPremium</string>
+    <string name="ws_GetUserProfileImages" translatable="false">GetUserProfileImages</string>
+    <string name="ws_UpdateUserProfileImages" translatable="false">UpdateUserProfileImages</string>
+    <string name="ws_UpdatePersonalInfo" translatable="false">UpdatePersonalInfo</string>
+    <string name="ws_ApproveVerificationCode" translatable="false">ApproveVerificationCode</string>
+    <string name="ws_SendVerificationCode" translatable="false">SendVerificationCode</string>
+    <string name="ws_CheckEmailUsernameDistinct" translatable="false">CheckEmailUsernameDistinct</string>
+    <string name="ws_AnonymousLogout" translatable="false">AnonymousLogout</string>
+    <string name="ws_Report" translatable="false">Report</string>
+
+    <string name="ad_app_unit_id" translatable="false">ca-app-pub-6156316056990400~1333828127</string>
+    <string name="ad_banner_unit_id" translatable="false">ca-app-pub-6156316056990400/7982472232</string>
+    <string name="ad_interstitial_unit_id" translatable="false">ca-app-pub-6156316056990400/7468548484</string>
+    <string name="ad_premium_unit_id" translatable="false">ca-app-pub-6156316056990400/8088829771</string>
+
+    <string name="default_profile_pic" translatable="false">https://firebasestorage.googleapis.com/v0/b/votidea-ef6e2.appspot.com/o/images%2Fturk%2Fchatoon_logo2-5.png?alt=media&amp;token=f05185c1-d85b-43f7-aeaa-9384f94a33a2</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="male_or_female">Male or Female</string>
+    <string name="sign_in_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="login_email">LOGIN WITH E-MAIL</string>
+    <string name="login_anonymous">LOGIN AS ANONYMOUS</string>
+    <string name="register_email">REGISTER WITH E-MAIL</string>
+    <string name="welcome">WELCOME</string>
+    <string name="enter_your_info">Please enter your info</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="people_you">People you</string>
+    <string name="want_to_chat_with">want to chat with</string>
+    <string name="continue_s">CONTINUE</string>
+    <string name="start_chatting">START CHATTING</string>
+    <string name="age_range">Age Range</string>
+    <string name="male_char">M</string>
+    <string name="female_char">F</string>
+    <string name="email">E-Mail</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password (Again)</string>
+    <string name="use_facebook_pic">Use My Facebook Photo</string>
+    <string name="search_criteria_menu">Search Criteria:</string>
+    <string name="age_range_menu">Age Range:</string>
+    <string name="image">[IMAGE]</string>
+    <string name="edit_photo">Edit</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="last_seen">last seen</string>
+    <string name="online">Online</string>
+    <string name="today_last_seen">" today"</string>
+    <string name="yesterday_last_seen">" yesterday"</string>
+    <string name="delete">Delete</string>
+    <string name="edit_search_credentials">Edit Search Credentials</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="whos_that_chick">Who\'s that chick?</string>
+    <string name="whos_that_handsome">Who\'s that handsome?</string>
+    <string name="oh_its_me_for_sure">Oh&#8230; It\'s me for sure ;)</string>
+    <string name="ok">OK</string>
+    <string name="highlights">Highlights</string>
+    <string name="already_in_highlights">You are already in highlights. \nTime left:</string>
+    <string name="highlights_message">Click OK to appear on the Featured List and reach more people. You will be appeared in the Featured List for %1$s hours after the advertisement.</string>
+    <string name="premium_activated">Congratulations! You will appear in the Featured list for %1$s hours.</string>
+    <string name="country">Country</string>
+    <string name="my_photos">My Photos</string>
+    <string name="my_info">Personal Info</string>
+    <string name="my_search_credentials">My Search Credentials</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="update_my_photos">Update My Photos</string>
+    <string name="update_my_info">Update My Personal Info</string>
+    <string name="update_my_search_credentials">Update My Search Credentials</string>
+    <string name="edit_personal_info">Edit Personal Info</string>
+    <string name="enter_only_english_characters">Please enter only English characters and punctuation marks</string>
+    <string name="username_between_3_and_40">Username must be between 3 and 40 characters long</string>
+    <string name="your_personal_info_updated">Personal info is updated</string>
+    <string name="your_search_credentials_updated">Search credentials are updated</string>
+    <string name="your_photos_updated">Photos are updated</string>
+    <string name="dialog_deleted">Dialog deleted</string>
+    <string name="we_re_sorry">We\'re Sorry...</string>
+    <string name="chat_not_found">We couldn\'t find people in your search credentials. You can change your credentials and try again.</string>
+    <string name="cant_send_photo">Can\'t Send Photo</string>
+    <string name="anonymous_cant_send_photo">Anonymous Accounts can\'t send photos. \nPlease register with E-Mail or Login via Facebook to send photos.</string>
+    <string name="logout">Log Out</string>
+    <string name="verificate_mail_to_send_photo">You must verificate E-Mail to send photos</string>
+    <string name="verificate_email">Verificate E-Mail</string>
+    <string name="enter_verification_code">Please enter your E-Mail verification code</string>
+    <string name="verificate">Verificate</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="resend_verification_code">Resend Verification Code</string>
+    <string name="wait_30_seconds_to_send_again">Please wait 30 seconds to send a new verification code</string>
+    <string name="invalid_verification_code">Invalid verification code. Please try again</string>
+    <string name="wait_1_minue_to_approve_verification_code">Please wait 1 minute to approve verification code</string>
+    <string name="verification_code_sent_again">Verification code sent again</string>
+    <string name="email_verificated">You have successfully verificated your E-Mail</string>
+    <string name="logout_title">Goodbye :)</string>
+    <string name="logout_message">Are you sure you want to log out?</string>
+    <string name="logout_message_anonymous">You are logged in as Anonymous. If you log out, you won\'t be able to login this account again!</string>
+    <string name="logout_title_anonymous">Are you sure to log out from Anonymous account?</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="blocked_1_day">You have blocked for 1 day because of security</string>
+    <string name="username_used">Username is used by another user</string>
+    <string name="email_used">E-Mail is used by another user</string>
+    <string name="open_source_libraries" translatable="false">Open Source Libraries in this Application</string>
+    <string name="invalid_input">Please enter only English characters and punctuation marks.\nError: %1$s</string>
+    <string name="invalid_length">Please enter a certain range of characters.\nInvalid: %1$s</string>
+    <string name="invalid_login">Invalid Login. Please try again</string>
+    <string name="user_banned">User is Banned</string>
+    <string name="choose_gender">Please choose your gender</string>
+    <string name="passwords_doesnt_match">Passwords doesn\'t match. Please check again</string>
+    <string name="sent_to_mail">Sent mail to %1$s</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="accept_policy">I read and accept Chatoon Terms &amp; Conditions and Privacy Policy.</string>
+    <string name="please_accept_policy">Please accept Terms &amp; Conditions and Privacy Policy</string>
+    <string name="send">Send</string>
+    <string name="report_reason">Report Reason</string>
+    <string name="report_user">Report User</string>
+    <string name="user_reported">User reported. We will check this as soon as possible. Thank you</string>
+    <string name="update_app_title">New Version Available</string>
+    <string name="update_app_message">Please update app to latest version.</string>
+    <string name="maintenance_title">Under Maintenance</string>
+    <string name="maintenance_message">Chatoon is under maintenance. It will be back soon. Thank you.</string>
+    <string name="no_internet_title">No Internet Connection</string>
+    <string name="no_internet_message">Please check your internet connection and try again.</string>
+    <string name="find_new_chat">Find New Chat</string>
+    <string name="find_new_chat_message">You can search for a new chat with your search credentials</string>
+    <string name="showcase_premium_message" translatable="false">You can appear on Featured List.</string>
+
+</resources>
